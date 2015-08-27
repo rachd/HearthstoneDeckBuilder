@@ -8,8 +8,6 @@
 		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<script src="javascript/jquery-1.11.3.js"></script>
-		<script src="javascript/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -27,6 +25,11 @@
 			</div>
 			<div class="row">
 				<div class="col-md-9">
+					<div class="btn-group" role="group">
+						<button type="button" id="minion-btn" class="btn btn-default">Minions</button>
+						<button type="button" id="spell-btn" class="btn btn-default">Spells</button>
+						<button type="button" id="weapon-btn" class="btn btn-default">Weapons</button>
+					</div>
 					<img id="circle of healing" class="card priest classic spell common 0_mana" src="http://placehold.it/200x300" alt="restore 4 health to all minions">
 					<img id="silence" class="card priest classic spell common 0_mana" src="http://placehold.it/200x300" alt="silence a minion">
 					<img id="flash heal" class="card priest TGT spell common 1_mana" src="http://placehold.it/200x300" alt="restore 5 health">
@@ -40,7 +43,7 @@
 					<img id="shadowbomber" class="card priest GVG minion epic 1_mana 2_attack 1_health" src="http://placehold.it/200x300" alt="battlecry deal 3 damage to each hero">
 					<img id="twilight whelp" class="card priest BRM minion common 1_mana 2_attack 1_health" src="http://placehold.it/200x300" alt="battlecry if you're holding a dragon gain _2 health">
 					<img id="confuse" class="card priest TGT spell epic 2_mana" src="http://placehold.it/200x300" alt="swap the attack and health of all minions">
-					<img id="convert" class="card priest TGT spell rare 2_mana" src"http://placehold.it/200x300" alt="put a copy of an enemy minion into your hand">
+					<img id="convert" class="card priest TGT spell rare 2_mana" src="http://placehold.it/200x300" alt="put a copy of an enemy minion into your hand">
 					<img id="divine spirit" class="card priest spell basic 2_mana" src="http://placehold.it/200x300" alt="double a minion's health">
 					<img id="mind blast" class="card priest spell basic 2_mana" src="http://placehold.it/200x300" alt="deal 5 damage to the enemy hero">
 					<img id="resurrect" class="card priest BRM spell rare 2_mana" src="http://placehold.it/200x300" alt="summon a random friendly minion that died this game">
@@ -75,6 +78,9 @@
 				</div>	
 			</div>
 		</div>
+		<script src="javascript/jquery-1.11.3.js"></script>
+		<script src="javascript/bootstrap.min.js"></script>
+		<script src="javascript/main.js"></script>
 	</body>
 </html>
 			

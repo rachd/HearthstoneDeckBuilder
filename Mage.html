@@ -8,8 +8,6 @@
 		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<script src="javascript/jquery-1.11.3.js"></script>
-		<script src="javascript/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -27,6 +25,11 @@
 			</div>
 			<div class="row">
 				<div class="col-md-9">
+					<div class="btn-group" role="group">
+						<button type="button" id="minion-btn" class="btn btn-default">Minions</button>
+						<button type="button" id="spell-btn" class="btn btn-default">Spells</button>
+						<button type="button" id="weapon-btn" class="btn btn-default">Weapons</button>
+					</div>
 					<img id="arcane blast" class="card mage TGT spell epic 1_mana" src="http://placehold.it/200x300" alt="deal 2 damage to a minion this spell gets double bonus from spell damage">
 					<img id="arcane missiles" class="card mage spell basic 1_mana" src="http://placehold.it/200x300" alt="deal 3 damage randomly split among all enemies">
 					<img id="ice lance" class="card mage classic spell common 1_mana" src="http://placehold.it/200x300" alt="freeze a character if it was already frozen deal 4 damage instead">
@@ -53,7 +56,7 @@
 					<img id="flamewaker" class="card mage BRM minion rare 3_mana 2_attack 4_health" src="http://placehold.it/200x300" alt="after you cast a spell deal 2 damage randomly split among all enemies">
 					<img id="kirin tor mage" class="card mage classic minion rare 3_mana 4_attack 3_health" src="http://placehold.it/200x300" alt="battlecry the next secret you play this turn costs 0">
 					<img id="soot spewer" class="card mage GVG minion rare 3_mana 3_attack 3_health" src="http://placehold.it/200x300" alt="spell damage +1">
-					<img id="spellslinger" clas="card mage TGT minion common 3_mana 3_attack 4_health" src="http://placehold.it/200x300" alt="battlecry add a random spell to each player's hand">
+					<img id="spellslinger" class="card mage TGT minion common 3_mana 3_attack 4_health" src="http://placehold.it/200x300" alt="battlecry add a random spell to each player's hand">
 					<img id="cone of cold" class="card mage classic spell common 4_mana" src="http://placehold.it/200x300" alt="freeze a minion and the minions next to it and deal 1 damage to them">
 					<img id="echo of medivh" class="card mage GVG spell epic 4_mana" src="http://placehold.it/200x300" alt="put a copy of eahc friendly minion into your hand">
 					<img id="fireball" class="card mage spell basic 4_mana" src="http://placehold.it/200x300" alt="deal 6 damage">
@@ -75,6 +78,9 @@
 				</div>	
 			</div>
 		</div>
+		<script src="javascript/jquery-1.11.3.js"></script>
+		<script src="javascript/bootstrap.min.js"></script>
+		<script src="javascript/main.js"></script>
 	</body>
 </html>
 			

@@ -8,8 +8,6 @@
 		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<script src="javascript/jquery-1.11.3.js"></script>
-		<script src="javascript/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -27,6 +25,11 @@
 			</div>
 			<div class="row">
 				<div class="col-md-9">
+					<div class="btn-group" role="group">
+						<button type="button" id="minion-btn" class="btn btn-default">Minions</button>
+						<button type="button" id="spell-btn" class="btn btn-default">Spells</button>
+						<button type="button" id="weapon-btn" class="btn btn-default">Weapons</button>
+					</div>
 					<img id="sacrificial pact" class="card spell basic 0_mana" src="http://placehold.it/200x300" alt="destroy a demon restore 5 health to your hero">
 					<img id="corruption" class="card spell basic 1_mana" src="http://placehold.it/200x300" alt="choose an enemy minion at the start of your turn destroy it">
 					<img id="mortal coil" class="card spell basic 1_mana" src="http://placehold.it/200x300" alt="deal 1 damage to a minion if that kills it draw a card">
@@ -63,7 +66,7 @@
 					<img id="doomguard" class="card minion rare 5_mana 5_attack 7_health" src="http://placehold.it/200x300" alt="charge battlecry discard two random cards">
 					<img id="floating watcher" class="card minion common 5_mana 4_attack 4_health" src="http://placehold.it/200x300" alt="whenever your hero takes damage on your turn gain +2/+2">
 					<img id="dark bargain" class="card spell epic 6_mana" src="http://placehold.it/200x300" alt="destroy 2 random enemy minions discard 2 random cards">
-					<img id="siphon soul" clas="card spell rare 6_mana" src="http://placehold.it/200x300" alt="destroy a minion restore 3 health to your hero">
+					<img id="siphon soul" class="card spell rare 6_mana" src="http://placehold.it/200x300" alt="destroy a minion restore 3 health to your hero">
 					<img id="anima golem" class="card minion epic 6_mana 9_attack 9_health" src="http://placehold.it/200x300" alt="at the end of each turn destroy this minion if it's your only one">
 					<img id="dread infernal" class="card minion basic 6_mana 6_attack 6_health" src="http://placehold.it/200x300" alt="battlecry deal 1 damage to all other characters">
 					<img id="void crusher" class="card minion rare 6_mana 5_attack 4_health" src="http://placehold.it/200x300" alt="inspire destory a random minion for each player">
@@ -75,6 +78,9 @@
 				</div>	
 			</div>
 		</div>
+		<script src="javascript/jquery-1.11.3.js"></script>
+		<script src="javascript/bootstrap.min.js"></script>
+		<script src="javascript/main.js"></script>
 	</body>
 </html>
 			

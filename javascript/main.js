@@ -60,3 +60,13 @@ function showCategory(category){
 	cards.hide();
 	category.show();
 }
+
+$('#minion-btn').click(function() {
+	showCategory(minion);
+});
+$('#spell-btn').click(function() {
+	showCategory(spell);
+});
+$('#weapon-btn').click(function() {
+	showCategory(weapon);
+});

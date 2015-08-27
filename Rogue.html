@@ -8,8 +8,6 @@
 		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/styles.css">
-		<script src="javascript/jquery-1.11.3.js"></script>
-		<script src="javascript/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -27,6 +25,11 @@
 			</div>
 			<div class="row">
 				<div class="col-md-9">
+					<div class="btn-group" role="group">
+						<button type="button" id="minion-btn" class="btn btn-default">Minions</button>
+						<button type="button" id="spell-btn" class="btn btn-default">Spells</button>
+						<button type="button" id="weapon-btn" class="btn btn-default">Weapons</button>
+					</div>
 					<img id="backstab" class="card rogue spell basic 0_mana" src="http://placehold.it/200x300" alt="deal 2 damage to an undamaged minion">
 					<img id="preparation" class="card rogue classic spell epic 0_mana" src="http://placehold.it/200x300" alt="the next spell you cast this turn costs 3 less">
 					<img id="shadowstep" class="card rogue classic spell common 0_mana" src="http://placehold.it/200x300" alt="return a friendly minion to your hand it costs 2 less">
@@ -75,6 +78,9 @@
 				</div>	
 			</div>
 		</div>
+		<script src="javascript/jquery-1.11.3.js"></script>
+		<script src="javascript/bootstrap.min.js"></script>
+		<script src="javascript/main.js"></script>
 	</body>
 </html>
 			
