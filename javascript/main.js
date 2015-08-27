@@ -70,3 +70,36 @@ $('#spell-btn').click(function() {
 $('#weapon-btn').click(function() {
 	showCategory(weapon);
 });
+$('#mana_0').click(function() {
+	showCategory(mana_0);
+})
+$('#mana_1').click(function() {
+	showCategory(mana_1);
+})
+$('#mana_2').click(function() {
+	showCategory(mana_2);
+})
+$('#mana_3').click(function() {
+	showCategory(mana_3);
+})
+$('#mana_4').click(function() {
+	showCategory(mana_4);
+})
+$('#mana_5').click(function() {
+	showCategory(mana_5);
+})
+$('#mana_6').click(function() {
+	showCategory(mana_6);
+})
+$('#mana_7').click(function() {
+	showCategory(mana_7);
+})
+$('#mana_8').click(function() {
+	showCategory(mana_8);
+})
+$('#mana_9').click(function() {
+	showCategory(mana_9);
+})
+$('#mana_10').click(function() {
+	showCategory(mana_10);
+})
