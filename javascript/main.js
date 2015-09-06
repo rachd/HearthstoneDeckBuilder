@@ -103,3 +103,11 @@ $('#mana_9').click(function() {
 $('#mana_10').click(function() {
 	showCategory(mana_10);
 })
+
+var choices = [];
+
+$(".card").click(function(){
+	choices.push(this.id);
+	console.log(choices);
+	$('p').text(choices);
+});
