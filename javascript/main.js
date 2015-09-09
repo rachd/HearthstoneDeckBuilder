@@ -110,4 +110,9 @@ $(".card").click(function(){
 	choices.push(this.id);
 	console.log(choices);
 	$('p').text(choices);
+	$(this).hide();
 });
+
+function isInArray(value, array) {
+  return array.indexOf(value) > -1;
+}
