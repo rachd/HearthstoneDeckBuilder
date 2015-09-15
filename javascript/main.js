@@ -108,8 +108,10 @@ var choices = [];
 
 $(".card").click(function(){
 	choices.push(this.id);
-	console.log(choices);
-	$('p').text(choices);
+	var ul = document.getElementById("chosen");
+	var li = document.createElement("li");
+	li.appendChild(document.createTextNode(this.id));
+	ul.appendChild(li);
 	$(this).hide();
 });
 
